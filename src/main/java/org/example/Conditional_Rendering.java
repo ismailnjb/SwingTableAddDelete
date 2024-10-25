@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Main2 extends JFrame {
+public class Conditional_Rendering extends JFrame {
     private int plusCount = 0;  // Counter for "+"
     private int minusCount = 0; // Counter for "-"
 
@@ -13,7 +13,7 @@ public class Main2 extends JFrame {
     private JButton plusButton; // Button for "+"
     private JButton minusButton; // Button for "-"
 
-    public Main2() {
+    public Conditional_Rendering() {
         setTitle("Count + and - Example");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -64,7 +64,7 @@ public class Main2 extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Main2 frame = new Main2();
+                Conditional_Rendering frame = new Conditional_Rendering();
                 frame.setVisible(true);
             }
         });

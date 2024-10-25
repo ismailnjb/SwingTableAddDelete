@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Main {
+public class TableAddDeleteRows {
     public static void main(String[] args) {
         // Create the JFrame (the main window)
         JFrame frame = new JFrame("JTable with Add/Delete Rows Example");
